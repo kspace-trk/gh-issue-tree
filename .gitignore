@@ -1,0 +1,9 @@
+# Binary
+gh-issue-tree
+dist/
+
+# OS
+.DS_Store
+
+# claude local settings
+.claude/*.local.json
