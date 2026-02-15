@@ -14,8 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-go@v5
-        with:
-          go-version-file: go.mod
-
       - uses: cli/gh-extension-precompile@v2
+        with:
+          go_version_file: go.mod
